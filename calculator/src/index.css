@@ -1,0 +1,112 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img{
+  width: 100%;
+  height: 784.39px;
+  position: relative;
+  border-radius: 7px;
+}
+
+.container{
+  top: 0;
+  left: 12rem;
+  position: absolute;
+  width: 30%;
+  height: 510px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: 9%;
+  border-radius: 30px;
+
+}
+
+.container input {
+  text-align: right;
+  background-color: rgba(0, 102, 255, 0.827) ;
+  width: 82%;
+  font-size: 2rem;
+  border-radius: 30px;
+  margin: 6% 0 0 0;
+  padding: 2% 5% 2% 1%;
+  color: white;
+  border: none;
+}
+
+#w1{
+  width: 87.5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+}
+
+#w1 button {
+  width: 80%;
+  margin: auto;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 2rem ;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border: none;
+  cursor: pointer;  
+}
+
+#w1 button:hover{
+  box-shadow: 1px 1px 10px rgb(185, 181, 181);
+}
+
+#w1 button:active{
+  border: 1px solid rgb(163, 159, 159);
+}
+
+#a1{
+  background-color: rgba(221, 221, 231, 0.274);
+  font-weight: bold;
+}
+
+#a2{
+  color: white;
+  background-color: rgb(9, 9, 69);
+  font-weight: bold;
+}
+
+#a3{
+  background-color: rgba(140, 140, 148, 0.416);
+}
+
+#a4{
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.701);
+}
+
+#a5{
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 102, 255, 0.649);
+}
+
+#a6{
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 166, 0, 0.775);
+}
+
+#a7{
+  color: white;
+  font-weight: bold;
+  background-color: rgb(116, 255, 47);
+}
